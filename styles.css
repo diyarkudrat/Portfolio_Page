@@ -1,88 +1,104 @@
-body {
-    font-family: Helvetica;
-    font-size: 16px;
-}
 
-h1 {
-    font-size: 2em;
-    text-align: center;
-    margin: 0;
-    font-weight: 100;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        font-family: Helvetica;
+        font-size: 16px;
+    }
 
-h2 {
-    font-size: 1em;
-    font-weight: 200;
-    
-}
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 1rem;
+        font-weight: 100;
+    }
 
-h3 {
-    font-size: 1em;
-    font-weight: 200;
-}
-
-
-
-figure > img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-}
-
-header > h2 {
-    font-size: 2em;
-}
-
-
-figure > figcaption {
-    text-align: center;
-}
-
-
-
-p {
-    font-weight: 100;
-    text-align: center;
-}
-
-h3 {
-    font-size: 2em;
-} */
-
-
-input[type=text], select {
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=email], select {
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 4px;
-  }
-
-.wrapper {  
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    .wrapper {
+    h2 {
+        font-size: 1em;
+        font-weight: 200;
         
+    }
+
+    h3 {
+        font-size: 1em;
+        font-weight: 200;
+    }
+
+    hgroup {
+        text-align: center;
+    }
+
+    section {
+        margin: 2em;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    ul#menu li {
+        list-style: none;
+        text-align: center;
+    }
+
+
+    figure > img {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+
+    header > h2 {
+        font-size: 2em;
+    }
+
+
+    figure > figcaption {
+        text-align: center;
+    }
+
+
+
+    p {
+        font-weight: 100;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 2em;
+    } */
+
+
+
+
+    .container {
+        min-width: 600px;
+        max-width: 900px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container2 {
+        min-width: 600px;
+        max-width: 900px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    ol#menu li {
+        list-style: none;
+    }
+    h1 {
+        text-align: center;
     }
 }
 

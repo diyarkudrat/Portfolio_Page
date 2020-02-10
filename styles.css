@@ -4,21 +4,95 @@ body {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
+    margin: 0;
+    font-weight: 100;
 }
 
-header > p {
-    text-align: center;
+h2 {
     font-size: 1em;
-    font-weight: bold;
-
+    font-weight: 200;
+    
 }
 
-img {
+h3 {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+
+
+figure > img {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
 }
+
+header > h2 {
+    font-size: 2em;
+}
+
+
+figure > figcaption {
+    text-align: center;
+}
+
+
+
+p {
+    font-weight: 100;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+} */
+
+
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+  }
+
+.wrapper {  
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .wrapper {
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
